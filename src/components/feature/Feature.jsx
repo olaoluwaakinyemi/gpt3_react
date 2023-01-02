@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
+import './feature.css';
 
-function Feature({title,text}) {
-  return (
-    <div className="gpt3__features-container__feature">
+const Feature = ({ title, text }) => (
+  <div className="gpt3__features-container__feature">
     <div className="gpt3__features-container__feature-title">
       <div />
       <h1>{title}</h1>
@@ -11,7 +11,6 @@ function Feature({title,text}) {
       <p>{text}</p>
     </div>
   </div>
-  )
-}
+);
 
-export default Feature
+export default Feature;
